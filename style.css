@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+header {
+  text-align: center;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+}
+
+body section {
+  margin-top: 50px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+.kelas-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kelas-container .item {
+  width: 20%;
+  background-color: lightcoral;
+  border-radius: 20px;
+  box-shadow: 0px 4px 30px 10px rgba(0, 0, 0, 0.25);
+}
+
+.item .item-desc {
+  background-color: lightcyan;
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+.item .html {
+  height: 120px;
+  width: 50%;
+  margin: auto;
+  background-image: url(assets/images/html.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.item .css {
+  height: 120px;
+  width: 50%;
+  margin: auto;
+  background-image: url(assets/images/css.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.item .js {
+  height: 120px;
+  width: 60%;
+  margin: auto;
+  background-image: url(assets/images/js.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.item-desc a {
+  text-decoration: none;
+  background-color: lightgreen;
+  padding: 5px 10px;
+  margin-top: 20px;
+  display: block;
+  width: 50%;
+  transition: all 0.5s;
+  text-align: left;
+}
+
+.item-desc a:hover {
+  text-decoration: none;
+  background-color: lightpink;
+  padding: 5px 10px;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+footer {
+  background-color: lightpink;
+  height: 30vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
